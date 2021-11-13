@@ -115,3 +115,7 @@ python src/run_multicheck.py --p-num 001 --subsequence bg-01
 ```
 
 edit the text indicated in the script to modify the images path and the annotations path,
+
+# New Edits
+
+These are made by me
