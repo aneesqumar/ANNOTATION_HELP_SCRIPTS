@@ -30,3 +30,5 @@
 |KEY-z:                  | *realign all sequences                            |
 
 Check out the docs for more
+# Edits by Anees
+Now these edits are by me
