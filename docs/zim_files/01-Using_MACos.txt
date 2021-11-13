@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-10T12:30:29+02:00
+
+====== 01-Using MACos ======
+Angelegt Freitag 10 August 2018
+
+
+===== Shortcuts =====
+
+**CMD + Space** ⇒ Open Spotlight
+**Alt + N = ~**
+
+===== Programms =====
+
+**Finder ⇒ **Windows explorer equivalent
+**Konsole ⇒ **(kind of) windows cmd equivalent
+**Safari ⇒ **Mac Browser
+**Activity Monitor ⇒ Task manager**
+
+
+===== Links ( save as bookmark ) =====
+
+* **Chat Client for Team ⇒** https://slack.com/intl/de-de
+* **Google Drive Folder ⇒ **https://drive.google.com/open?id=1f1Za_PIzWT4pUTUIagvTNzkR1X_0cr8W
+	* Create subfolder with your name if you need something
+
+* control left + right

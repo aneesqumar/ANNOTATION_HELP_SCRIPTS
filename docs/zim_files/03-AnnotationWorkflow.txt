@@ -1,0 +1,78 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-10T13:13:15+02:00
+
+====== 03-AnnotationWorkflow ======
+Angelegt Freitag 10 August 2018
+
+
+===== 0 - Navigate to multiviewer folder =====
+
+[ ] Todo
+
+
+===== 1 - Synchronize the sequences at the front (right side) =====
+
+1. navigate all angles to the front.
+	a. The front is where you can see the whole body in the frame **for the frame90** angle.
+2. For each sequence, find the frame that aligns with the others.
+	a. Some characteristic points are:
+		b. the moment the foot touches the ground and rotates (initial contact)
+			**example from 001-bg-01**
+			{{./initial_contact.gif}}
+(Annotations: Frame1: in the air, frame2: on the ground, Frame3: in the air)
+		d. the moment the foot lifts off the ground and moves horizontally. You can sometimes see a clear motion blur.
+			**example from 001-bg-01**
+			{{./toe_lift.gif}}
+			(Annotations: Frame1: on the ground, Frame2: on the ground, Frame3: in the air)
+
+
+===== 2 - Move all sequences to the back and check alignment =====
+
+1. Press **w** to navigate all angles at the same time
+2. Move the sequences to the back
+3. Now check if alignment is still given.
+	a. check again characteristic points
+	b. If alignment is still good, mark the sequence in the [[https://docs.google.com/spreadsheets/d/1Pfc_5C7yODQZeAREOOip-TS8heD62cz05zIMz4CdgiA/edit?usp=sharing|gsheet]] as
+		1. **end-aligned** if you **did not** have to manually adjust the aligment
+		2. **manually aligned** if you **had to** do manual adjustments of the aligment
+	c. if alignment is not clear for one step, check one step before and after
+		1. If alignment is still given for most of the steps, mark the sequence as **end-aligned** or **manually aligned** depending on what you did.
+		2. if alignment is **not** given for most of the steps, drop the sequence and mark it as **dropped**
+	d. Sometimes, it is only one angle that cannot be properly aligned. In that case you mark the angle with a **D** in the [[https://docs.google.com/spreadsheets/d/1Pfc_5C7yODQZeAREOOip-TS8heD62cz05zIMz4CdgiA/edit?usp=sharing|gsh]][[https://docs.google.com/spreadsheets/d/1Pfc_5C7yODQZeAREOOip-TS8heD62cz05zIMz4CdgiA/edit?usp=sharing|eet.]]
+		a. If more than one angle cannot be aligned, mark all angles with **D**
+4. Update the sequence status in the [[https://docs.google.com/spreadsheets/d/1Pfc_5C7yODQZeAREOOip-TS8heD62cz05zIMz4CdgiA/edit?usp=sharing|gsh]][[https://docs.google.com/spreadsheets/d/1Pfc_5C7yODQZeAREOOip-TS8heD62cz05zIMz4CdgiA/edit?usp=sharing|eet]]
+5. If alignement is given, press **J** to save the alignment before continuing
+
+===== 3 - Alignment is given, start annotating =====
+
+1. Did you save the aligment by pressing **j **? If not, press **j** to save the aligment
+2. Navigate all angles back to the front.
+3. Press **L** to start annotating the left foot.
+	a. navigate back until the **body is not entirely in the frame.** Mark this as NOT_IN_FRAME by pressing **N**
+		**example from 001-bg-01-30:21**
+		{{./NIF_beginning.gif}}
+		(animated gif)
+		
+		The transiation is between frame 31 and 32 (very subjective here)
+		{{./NIF_beginning_1.jpg}} {{./NIF_beginning_2.jpg}}
+
+	b. mark the last frame with NOT_IN_FRAME (**n**) and the first one in frame with **a** for IN_THE_AIR or **g** for ON_THE_GROUND, depending on what is valid for the **left foot**
+4. Continue through the sequence and always mark **the first and last frame** of the IN_THE_AIR phase or ON_THE_GROUND phase.
+5. At the end of the sequence, mark **last in frame** and **NOT_IN_FRAME** (n)
+	**example from 001-bg-01-89:93**
+	{{./annotation_workflow_2.gif}}
+	(animated gif)
+	
+	{{./annotation_workflow_2_4.jpg}} {{./annotation_workflow_2_5.jpg}}
+(static files)
+7. Now Press **R** to switch over to the right foot
+	a. do the same thing
+8. When you are done, Press **c** to save the annotations
+
+===== 4 - Did you save the alignment and the annotation? =====
+
+If not, press **c** to save the anntations and press **j ** to save the aligment.
+
+
+

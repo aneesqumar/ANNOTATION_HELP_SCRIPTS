@@ -1,0 +1,89 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-10T12:36:26+02:00
+
+====== 02-CommandOverview ======
+Angelegt Freitag 10 August 2018
+
+
+===== Updating the multiviewer files =====
+(~ = **ALT+N on Mac**
+1. ''cd ~/Projects/annotation (press tab)''
+2. git pull origin ibt_release
+	a. enter github user name
+	b. enter github password
+
+===== Steps to run the multiviewer =====
+
+0. Open Finder and make sure you can access juliette
+	a. **CMD + Space ⇒ Finder **or open finder from the doc at the bottom of the desktop
+1. Open Konsole via spotlight and open konsole: 
+	a. **CMD + Space ⇒ Terminal**
+2. Navigate to multiviewer folder: 
+	3. you can within the terminal press tab to use auto-completion
+	4. on mac you can do **~** with **ALT + N**
+	5. ''cd ~/Projects/anno (press tab) /src''
+3. activate  the multiviewer environment
+	5. ''source activate multiviewer''
+4. you should now see (multiviewer) before your path
+5. Start multiviewer IBT version with p_num and subsequence:
+	a. ''python run_multiviewer_IBT.py --p-num 001 --subsequence bg-01''
+
+
+===== Navigating the sequences =====
+
+1. Press **ö** and **ä** to navigate front and back on the sequences.
+2. Press **1, 2,** **3, 4, 5** to navigate **frames18, frames54, frames90, frames126, frames 162**.
+	2. Press **1** to select the sequence **frames18** for navigation. Then again, press **ö** and **ä** to navigate front and back on the sequences.
+	3. press **2** to selection the sequence **frames54** for navigation. Then again, press **ö** and **ä** to navigate front and back on the sequences.
+	4. ...
+3. Press **w** to navigate all sequences at once.
+
+
+===== Adding Annotations =====
+
+1. The command line constantly shows you which leg (left or right) you selected 
+	a. {{./pasted_image002.png}}
+	b. Press **l** or **r** to switch between left and right leg targets
+2. The command line also constantly shows you all the annotations you created so far
+	a. {{./pasted_image003.png}}
+3. When navigating the sequences, you can press 
+	a. **a** to annotate an **IN_THE_AIR **case 
+	b. **g** to annotate an **ON_THE_GROUND** case
+	c. **n** to annotate a **NOT_IN_FRAME** case
+	d. **d** to dete the last annotation in the list
+
+**Example**
+	* Press **r **to select the right leg as target
+	* Press **g ö a ö ** to annotate the current frame as **ON_THE_GROUND, ** go 1 frame forward, annotate as **IN_THE_AIR, **go another frame forward
+	* This results in the following annotations
+	* {{./pasted_image004.png}}
+	* Now press **d ** to get the following
+	* {{./pasted_image005.png}}
+
+===== Saving Offsets =====
+
+1. Press **j** to save the current offset between the sequences.
+	a. You will get a command output with the basename and the filename of the file to save.
+2. If you already have an offsets file, you have the following 3 options
+	1. Press **d** to delete the offsets file and NOT save the offsets file
+	2. Press **s** to overwrite the current offsets file with new offsets file.
+	3. Press **any key** to continue without any action.
+
+===== Saving Annotations =====
+
+1. Press **c** to save the annotations to a csv file
+	a. You can verify the location of the saved through the command line output
+	b. {{./pasted_image.png}}
+
+
+===== Exiting the Multiviewer =====
+
+1. Press **ESC**
+	a. You will be asked to confirm by pressing **ESC** again
+	b. {{./pasted_image001.png}}
+
+
+
+
+

@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-08-13T09:58:34+02:00
+
+====== 04-Links ======
+Angelegt Montag 13 August 2018
+
+* [[https://docs.google.com/spreadsheets/d/1Pfc_5C7yODQZeAREOOip-TS8heD62cz05zIMz4CdgiA/edit?usp=sharing|Annotation status Gsheet]]
+* [[https://docs.google.com/presentation/d/1J7Pxfgxd5I51Nq5J2E5oSxfX_V-dTqKSucdfQYdBHzk/edit?usp=sharing|Annotation Discussion Slides]]
+
+* [[https://drive.google.com/open?id=1f1Za_PIzWT4pUTUIagvTNzkR1X_0cr8W|Annotation Hiwi Files Gdrive Folder]]
+	* contains the 2 files above
+
+===== TODOs =====
+
+[ ] add some example casses to slides
+	[ ] 001 - bg-01
+[ ] make shortcuts more clear in programm
+[ ] make default windows size larger
+[ ] make default window placement
